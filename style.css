@@ -1,0 +1,21 @@
+html{
+    background-color: #F6F4EE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #343434;
+}
+body{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.list-inline{
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding:2%
+}
+a{
+    color: #343434;
+}
