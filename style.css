@@ -1,5 +1,5 @@
 html{
-    background-color: #F6F4EE;
+    background-color: #fafafa;
     font-family: Helvetica, Arial, sans-serif;
     color: #343434;
 }
@@ -7,18 +7,35 @@ html{
 body{
     width: 55%;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
 }
 
+
+strong{
+    font-weight: normal;
+    color:#e50053;
+}
 p{
     line-height: 2rem;
 }
-.page-title{
+a{
+    text-decoration: none;
+    color: #343434;
+}
+
+.row{
+    text-align: center;
+}
+h1.page-title{
     font-size:1.5rem;
+}
+h1.page-title:hover{
+    color:#e50053;
 }
 .section-heading{
     margin-top:30px;
     font-size: 1rem;
+    color:#e50053;
 }
 .list-inline{
     
@@ -30,16 +47,23 @@ p{
 
 .list-inline li{
     display: inline-block;
-    padding:2%
+    padding:2%;
+    padding-left:0;
+    text-decoration: none;
 }
-.list-inline a{
-    color: #343434;
+.list-inline li:hover{
+    text-decoration: underline;
+}
+.list-inline li:hover a{
+    
+    color: #e50053;
 }
 
 .contacts{
     margin-top: 0px;
     padding: 0;
     list-style-type: none;
+    text-align: center;
 }
 
 .contacts li{
@@ -47,10 +71,10 @@ p{
     display: inline-block;
     padding: 20px 10px;
 }
-
 .contacts li a img:hover{
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+    
 }
 .contacts img{
     width:100%;
@@ -59,21 +83,48 @@ embed{
     margin-bottom:50px;
 }
 
-.row {
+.row{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  
-  .column {
+.column{
     flex: 25%;
-    max-width: 25%;
+    max-width:70%;
     padding: 0 4px;
   }
-  
-  .column > img {
+.column img{
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
   }
+  .extra-column{
+    margin:0 auto;
+  }
+
+.project-list{
+    text-align: left;
+    list-style-type: none;
+    padding: 0px;
+}
+.project-list a{
+    color:#e50053;
+    font-size:larger;
+    text-decoration: none;
+}
+.project-list a:hover{
+    text-decoration: underline;
+}
+.project-list li.item {
+    margin-bottom: 24px;
+}
+.project-list p.desc {
+    margin-top: 2px;
+    font-style: italic;
+}
+.project-list p.date {
+    margin: 0px;
+    color: #666;
+    float: right;
+}
