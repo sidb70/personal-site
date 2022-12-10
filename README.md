@@ -1,1 +1,1 @@
-Under construction, MSU MI 349 final project
+https://sidbhat.netlify.app/
